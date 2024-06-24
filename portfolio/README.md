@@ -1,3 +1,3 @@
-# command for ruuning code 
+# command for running code 
 1. npm i 
 2. npm run dev

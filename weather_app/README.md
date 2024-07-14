@@ -1,4 +1,4 @@
-# for running this project follow the following command
+# for running this project run the following command
 1) npm install
 2) npm ru dev
    

@@ -65,13 +65,19 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
 2. Run Backend
+   
    cd backend
+   
    npm install
+   
    npm run dev
 
-3. Run Frontend
+4. Run Frontend
+   
    cd frontend
+   
    npm install
+   
    npm start
 
 

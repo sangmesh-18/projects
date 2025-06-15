@@ -1,28 +1,80 @@
-This repository contains a full-featured job portal application built using the MERN stack (MongoDB, Express.js, React.js,
+# 🧑‍💼 Job Portal Application - MERN Stack
 
-Node.js). The platform enables job seekers to find and apply for jobs, while employers can post and manage job listings.
+This repository contains a full-featured **Job Portal Application** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The platform enables **job seekers** to find and apply for jobs, while **employers** can post and manage job listings.
 
-Features
+---
 
-User Authentication: Secure sign-up and login functionality for job seekers and employers.
+## ✨ Features
 
-Job Listings: Employers can create, edit, and delete job postings.
+- 🔐 **User Authentication**  
+  Secure sign-up and login functionality for both job seekers and employers using JWT.
 
-Job Search and Filters: Advanced search capabilities with filters by job title, location, salary range, and more.
+- 📄 **Job Listings**  
+  Employers can create, edit, and delete job postings.
 
-Job Application Management: Job seekers can apply for jobs and track their application status.
+- 🔍 **Job Search and Filters**  
+  Advanced job search with filters by:
+  - Job Title
+  - Location
+  - Salary Range
+  - Job Type, etc.
 
-Responsive Design: Fully responsive UI for seamless use on desktop and mobile devices.
+- 📂 **Job Application Management**  
+  Job seekers can apply for jobs and track their application status.
 
-Admin Dashboard: Admin panel for managing user data and job postings.
+- 📱 **Responsive Design**  
+  Fully responsive UI that works seamlessly on desktop and mobile devices.
 
-Technologies Used
+- 🛠️ **Admin Dashboard**  
+  Admin panel for managing all user data and job postings.
 
-Frontend: React.js, Redux (for state management), Bootstrap/Material-UI for styling.
+---
 
-Backend: Node.js, Express.js for server-side logic and RESTful APIs.
+## 🛠️ Tech Stack
 
-Database: MongoDB for storing user and job data.
+### 🔷 Frontend
+- React.js
+- Redux (for state management)
+- Bootstrap / Material-UI (for UI components and styling)
 
-Authentication: JWT-based authentication for secure access.
+### 🔶 Backend
+- Node.js
+- Express.js (RESTful APIs and server-side logic)
+
+### 🗄️ Database
+- MongoDB (to store users, jobs, applications, etc.)
+
+### 🔐 Authentication
+- JWT (JSON Web Tokens) for secure access and session management
+
+---
+
+1.  Setup Environment Variables
+# Create a .env file in the backend/ directory with:
+🛢️ MongoDB Atlas URI
+MONGO_URI=your_mongodb_connection_string
+
+🔐 JWT Secret
+JWT_SECRET=your_jwt_secret_key
+
+☁️ Cloudinary Config
+CLOUDINARY_CLOUD_NAME=your_cloud_name 
+
+CLOUDINARY_API_KEY=your_api_key 
+
+CLOUDINARY_API_SECRET=your_api_secret
+
+2. Run Backend
+   cd backend
+   npm install
+   npm run dev
+
+3. Run Frontend
+   cd frontend
+   npm install
+   npm start
+
+
+
+
 
